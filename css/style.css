@@ -1,0 +1,795 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+img {
+	width: 100%;
+}
+
+.bars {
+	display: none;
+}
+
+.fas {
+	font-size: 35px;
+	color: black;
+}
+
+.header {
+	background: #f6f2f2;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.header nav {
+	
+}
+
+.header ul li {
+	padding: 0 25px;
+	padding-top: 45px;
+	padding-bottom: 34px;
+	transition: 1s;
+}
+
+.header ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+.header ul li:hover {
+	background: #ff3f40;
+}
+
+.navigation {
+	margin-bottom: 110px;
+	background: #313030;
+}
+
+.strong h1 {
+	text-transform: uppercase;
+	font-size: 55px;
+}
+
+.strong p {
+	color: #868383;
+	font-size: 16px;
+	margin-bottom: 63px;
+	margin-top: 41px;
+}
+
+.strong button {
+	max-width: 226px;
+	width: 100%;
+	height: 55px;
+	background: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+}
+
+.strong button a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+} 
+
+
+.strong .play {
+	min-height: 355px;
+	background: #c4c0b1;
+	box-shadow: 0 -14px 79px rgba(0, 0, 0, 0.29)
+}
+
+/*block2 */
+
+.work {
+	padding: 110px 0;
+}
+
+.work h2 {
+	font-size: 42px;
+	color: #585858;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+.work button {
+	max-width: 225px;
+	width: 100%;
+	height: 55px;
+	border: 2px solid #ff0000;
+	color: #ff2d2d;
+	border-radius: 5px;
+	background: transparent;
+	margin-top: 58px;
+}
+
+.work .fas {
+	font-size: 25px;
+	color: red;
+}
+
+.work .block {
+	padding: 16px;
+}
+
+.work .block h4 {
+	margin-top: 25px;
+	margin-bottom: 26px;
+	font-size: 24px;
+	color: #737373;
+}
+
+.work .block p {
+	color: #a0a0a0;
+}
+
+
+.w-line {
+	height: 2px;
+	background: #ececec;
+	margin-top: 111px;
+}
+
+/*block3*/
+
+.products {
+	padding-bottom: 139px;
+}
+
+.h-products {
+	text-align: center;
+}
+
+.h-products h3 {
+	text-transform: uppercase;
+	color: #585858;
+	font-size: 42px;
+	margin-bottom: 39px;
+}
+
+.h-products p {
+	color: #a0a0a0;
+	max-width: 507px;
+	margin: 0 auto;
+}
+
+.products .p-line {
+	width: 130px;
+	height: 2px;
+	background: #ff3b3b;
+	margin: 0 auto;
+	margin-top: 33px;
+	margin-bottom: 90px;
+}
+
+/*==============================*/
+
+.m-products ul li {
+	padding: 0 25px;
+}
+
+.m-products li a {
+	color: #737373;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 22px;
+	transition: 0.5s;
+}
+
+.m-products li a:hover {
+	color: #ff2d2d;
+}
+
+.qwe {
+	margin-top: 46px;
+}
+
+.boxes {
+	padding: 10px;
+}
+
+
+
+.box {
+	min-height: 290px;
+	background: #f5f0dd;
+}
+
+
+/*block4*/
+
+.team {
+	padding-bottom: 110px;
+}
+
+.about-t h2 {
+	font-size: 42px;
+	color: #585858;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.about-t p {
+	color: #737373;
+	margin-bottom: 37px;
+}
+
+.t-line {
+	width: 130px;
+	height: 2px;
+	background: #ff2d2d;
+	margin-bottom: 70px;
+}
+
+.t-image {
+	min-height: 469px;
+	background: #f5f0dd;
+}
+
+.markk h4 {
+	font-size: 30px;
+	color: #585858;
+	text-transform: uppercase;
+}
+
+.markk p {
+	color: #737373;
+	max-width: 631px;
+	margin-top: 40px;
+	margin-bottom: 43px;
+}
+
+.markk ul li {
+	padding-right: 40px;
+	margin-bottom: 68px;
+}
+
+.markk ul li a {
+	color: #737373;
+	text-decoration: none;
+}
+
+.boxess {
+	min-height: 210px;
+	background: #f5f0dd;
+}
+
+/*block5*/
+
+.subscribe {
+	text-align: center;
+	background: #f5f0dd;
+	padding-top: 150px;
+	padding-bottom: 140px;
+}
+
+.subscribe h4 {
+	font-size: 42px;
+}
+
+.subscribe p {
+	margin-top: 45px;
+	margin-bottom: 68px;
+}
+
+.subscribe form input {
+	border: none;
+	max-width: 521px;
+	width: 100%;
+	height: 79px;
+	padding-left: 37px;
+	border-radius: 5px;
+	margin-right: 22px;
+}
+
+.subscribe form button {
+	background: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+	max-width: 214px;
+	width: 100%;
+	height: 79px;
+}
+
+.subscribe form button a {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+/*block6*/
+
+.contact {
+	padding-top: 107px;
+	padding-bottom: 110px;
+}
+
+.contact h4 {
+	text-transform: uppercase;
+	font-size: 42px;
+	color: #585858;
+}
+
+.contact p {
+	color: #a0a0a0;
+	font-size: 16px;
+	margin-top: 56px;
+	margin-bottom: 58px;
+}
+
+.c-line {
+	width: 130px;
+	height: 2px;
+	background: #ff2d2d;
+	margin-bottom: 76px;
+}
+
+
+.contact form input {
+	border: none;
+	border-radius: 5px;
+	background: #e5e5e5;
+	padding: 31px 0 28px 54px;
+	height: 69px;
+}
+
+
+.contact form textarea {
+	border: none;
+	border-radius: 5px;
+	background: #e5e5e5;
+	padding: 31px 0 28px 54px;
+	resize: none;
+	margin: 46px 0;
+	height: 228px;
+}
+
+
+.contact form button {
+	background: #ff3b3b;
+	border: none;
+	border-radius: 5px;
+	height: 72px;
+	padding: 29px 0;
+}
+
+.contact form button a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}	
+
+
+.info {
+	min-height: 467px;
+	background: #2d2d2d;
+	padding-top: 145px;
+	padding-left: 79px;
+}
+
+.info h5 {
+	font-size: 18px;
+	color: #e0e0e0;
+	text-transform: uppercase;
+	margin-bottom: 46px;
+}
+
+.info p {
+	color: #e0e0e0;
+	margin: 0;
+} 
+
+/*footer*/
+
+.footer {
+	background: #313030;
+	padding-top: 61px;
+	padding-bottom: 41px;
+}
+
+.footer p {
+	color: #949494;
+	margin-top: 5px;
+}
+
+.footer ul li {
+	padding-left: 18px;
+}
+
+
+@media (max-width: 510px) {
+	.header nav ul {
+		display: none;
+	}
+	
+	.bars {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.navigation {
+		margin-bottom: 45px;
+	}
+
+	.header {
+		padding-bottom: 60px;
+		text-align: center;
+	}
+
+	.strong h1 {
+		font-size: 32px;
+	}
+
+	.strong p {
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
+
+	.strong button {
+		width: 50%;
+		height: 45px;
+		margin-bottom: 100px;
+	}
+
+	.work {
+		padding: 30px 0;
+		text-align: center;
+	}
+
+	.work h2 {
+		font-size: 18px;
+		margin-bottom: 14px;
+	}
+
+	.work p {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.work button {
+		margin-bottom: 30px;
+		width: 50%;
+		height: 40px;
+		margin-top: 12px;
+	}
+
+	.work .block {
+		padding: 30px;
+	}
+
+	.products {
+		text-align: center;
+		padding-bottom: 60px;
+	}
+
+	.h-products h3 {
+		font-size: 31px;
+		margin-bottom: 14px;
+	}
+
+	.products .p-line {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 33px;
+		margin-bottom: 25px;
+	}
+
+	.sorted .nav {
+		display: block;
+	}
+
+	.qwe {
+		margin-top: 16px;
+	}
+
+	.boxes {
+		padding: 10px;
+	}
+
+	.team {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	.about-t h2 {
+		font-size: 25px;
+		margin-bottom: 24px;
+	}
+
+	.about-t p {
+		margin-bottom: 26px;
+	}
+
+	.t-line {
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	.t-image {
+		min-height: 390px;
+	}
+
+	.markk h4 {
+		font-size: 25px;
+		margin-top: 50px;
+	}
+
+	.markk p {
+		margin-top: 15px;
+		margin-bottom: 23px;
+	}
+
+	.markk .nav {
+		display: block;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	.markk ul li {
+		padding: 0;
+		margin-bottom: 12px;
+	}
+
+	.img-box {
+		padding: 10px 15px;
+	}
+
+	.subscribe {
+		text-align: center;
+		padding-top: 35px;
+		padding-bottom: 59px;
+	}
+
+	.subscribe h4 {
+		font-size: 22px;
+	}
+
+	.subscribe p {
+		margin-top: 22px;
+		margin-bottom: 37px;
+	}
+
+	.hed-bottom form input {
+		margin: 0;
+		height: 50px;
+	}
+
+	.subscribe form button {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 20px;
+		height: 50px;
+	}
+
+	.contact {
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: 10px;
+	}
+
+	.contact h4 {
+		font-size: 30px;
+	}
+
+	.contact p {
+		margin-top: 18px;
+		margin-bottom: 40px;
+	}
+
+	.c-line {
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 42px; 
+	}
+
+	.contact form input {
+		padding-left: 20px;
+		height: 45px;
+		margin: 8px 0;
+	}
+
+	.contact form textarea {
+		padding: 0;
+		margin: 20px 0;
+		height: 125px;	
+	}
+
+	.contact form button {
+		width: 50%;
+		margin-bottom: 35px;
+		padding: 0;
+		height: 50px;
+	}
+
+	.info {
+		min-height: 467px;
+		padding-top: 100px;
+		padding-left: 0;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.footer .nav {
+		display: flex;
+		justify-content: flex-start!important;
+	}
+
+	.footer ul li {
+		padding-left: 33px;
+	}
+}
+
+
+@media (min-width: 510px) and (max-width: 990px) {
+	.strong h1 {
+		font-size: 35px;
+	}
+
+	.navigation {
+		margin-bottom: 70px;
+	}
+
+	.strong p {
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+
+	.strong button {
+		max-width: 200px;
+		height: 50px;
+	}
+
+	.strong .play {
+		min-height: 308px;
+	}
+
+	.header {
+		padding-bottom: 70px;
+	}
+
+	.work {
+		padding: 60px 0;
+	}
+
+	.work h2 {
+		font-size: 30px;
+	}
+
+	.work button {
+		max-width: 200px;
+		height: 50px;
+	}
+
+	.work .block {
+		padding: 10px 0;
+	}
+
+	.work .block h4 {
+		margin: 20px 0;
+	}
+
+	.w-line {
+		margin-top: 50px;
+	}
+
+	.h-products h3 {
+		font-size: 35px;
+	}
+
+	.products .p-line {
+		margin-bottom: 50px;
+	}
+
+	.m-products li a {
+		font-size: 15px;
+	}
+
+	.products {
+		padding-bottom: 90px;
+	}
+
+	.about-t h2 {
+		margin-bottom: 35px;
+	}
+
+	.markk h4 {
+		margin-top: 50px;
+	}
+
+	.markk ul li a {
+		font-size: 20px;
+	}
+
+	.markk ul li {
+		margin-bottom: 50px;
+	}
+
+	.team {
+		padding-bottom: 70px;
+	}
+
+	.img-box {
+		padding: 5px;
+	}
+
+	.subscribe {
+		padding: 100px 0;
+	}
+
+	.subscribe h4 {
+		font-size: 31px;
+	}
+
+	.subscribe p {
+		padding-bottom: 60px;
+	}
+
+	.subscribe form input {
+		margin: 0;
+		height: 60px;
+	}
+
+	.subscribe form button {
+		height: 60px;
+		margin-top: 30px;
+	}
+
+	.contact {
+		padding: 80px 0;
+	}
+
+	.contact p {
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
+
+	.contact form input {
+		height: 50px;
+		margin-top: 12px;
+	}
+
+	.input {
+		margin: 0!important;
+	}
+
+	.c-line {
+		margin-bottom: 55px;
+	}
+
+	.contact form textarea {
+		padding: 0;
+		margin: 12px 0;
+		height: 180px;
+	}
+
+	.contact form button {
+		height: 55px;
+		padding: 0;
+	}
+
+	.info {
+		min-height: 403px;
+		padding-top: 110px;
+		padding-left: 40px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer .nav {
+		display: flex;
+		justify-content: center!important;
+	}
+}
